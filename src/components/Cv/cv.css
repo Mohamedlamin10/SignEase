@@ -1,0 +1,24 @@
+.cv h1 {
+    padding: 25px;
+    color: #0da778;
+}
+
+.cv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CardCv {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:840px) {
+    .cv h1 {
+        font-size: 15px;
+    }
+}

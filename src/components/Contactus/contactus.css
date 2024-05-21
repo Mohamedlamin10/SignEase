@@ -1,0 +1,101 @@
+.contactdes {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    color: black;
+    font-weight: bold;
+}
+
+#contactus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 60px;
+}
+
+.contactform input::placeholder {
+    text-align: right;
+}
+
+.contactform textarea::placeholder {
+    text-align: right;
+}
+
+.contactform {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name,
+.email,
+.mesaage {
+    font-size: medium;
+    width: 100%;
+    min-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #0da778;
+    border-radius: 0.5rem;
+    background: #d0f0e7;
+    border-color: #0da778;
+    border-width: 3px;
+}
+
+.submitBtn {
+    background: white;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.Title {
+    color: #0da778;
+}
+
+.links {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 25px;
+
+}
+
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:840px) {
+    .Title {
+        font-size: 15px;
+    }
+
+    .name,
+    .email,
+    .mesaage {
+        min-width: 16rem;
+    }
+
+    .submitBtn {
+        width: 50px;
+    }
+
+    .contactdes {
+        text-wrap: nowrap;
+    }
+}
+
+.submitBtn:hover {
+    background-color: #0da778;
+}

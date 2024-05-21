@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: "Cairo", sans-serif;
+}
+
+body {
+    background: #d0f0e7;
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}

@@ -1,0 +1,18 @@
+h3 {
+    padding: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.gallaryInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallaryTitle {
+    color: #0da778;
+    font-weight: bold;
+    font-family: "Cairo", sans-serif;
+}
