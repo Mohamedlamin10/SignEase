@@ -30,7 +30,6 @@ const ContactUs = () => {
     };
     return (
         <div id="contactus">
-            <h1 className="Title">تواصل معنا</h1>
             <span className="contactdes">للمزيد تواصل معنا </span>
             <form className="contactform" ref={form} onSubmit={sendEmail}>
                 <input type="text " className="name" placeholder="الإسم" name="user_name"></input>
