@@ -3,6 +3,7 @@ import '../Navbar/navbar.css'
 import logo from '../../assets/logo.png'
 import { Link } from "react-scroll";
 import menu from '../../assets/menu.png'
+import { FiMenu } from "react-icons/fi";
 
 const Navbar = () => {
     const [Top, setTop] = useState(0)
@@ -28,7 +29,7 @@ const Navbar = () => {
             <a className="Name">SignEase</a>
             <div className="desktopMenu">
                 <Link className="desktopMenuListItem" spy={true} activeClass="active" to="intro" smooth={true} offset={-50} duration={500}> الصفحة الرئيسية </Link>
-                <Link className="desktopMenuListItem" spy={true} activeClass="active" to="gallary" smooth={true} offset={-50} duration={500}> المعرض</Link>
+                <Link className="desktopMenuListItem" spy={true} activeClass="active" to="gallary" smooth={true} offset={-50} duration={500}> واجهات التطبيق</Link>
                 <Link className="desktopMenuListItem" spy={true} activeC lass="active" to="info" smooth={true} offset={-50} duration={500}> معلومات  </Link>
                 <Link className="desktopMenuListItem" spy={true} activeClass="active" to="cv" smooth={true} offset={-50} duration={500}> الملف الشخصي  </Link>
             </div>
@@ -37,7 +38,7 @@ const Navbar = () => {
             }}>
                 إتصل بنا
             </button>
-            <img src={menu} className="mobMenu" onClick={() => setShowMenu(!showMenu)}></img>
+            <FiMenu color="#0da778" className="mobMenu" onClick={() => setShowMenu(!showMenu)}></FiMenu>
             <div className="NavMenu" style={{ display: showMenu ? 'flex' : 'none' }}>
                 <Link className="ListItem" spy={true} activeClass="active" to="intro" smooth={true} offset={-50} duration={500} onClick={() => setShowMenu(false)}> الصفحة الرئيسية </Link>
                 <Link className="ListItem" spy={true} activeClass="active" to="gallary" smooth={true} offset={-50} duration={500} onClick={() => setShowMenu(false)}> المعرض</Link>

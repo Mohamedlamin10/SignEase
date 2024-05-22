@@ -11,7 +11,7 @@ import page1 from '../../assets/page1.PNG'
 const Gallary = () => {
     return (
         <div className="gallary">
-            <h3 className="gallaryTitle">معرض للتطبيق </h3>
+            <h3 className="gallaryTitle">واجهات التطبيق </h3>
             <div className="gallaryInfo">
                 <Card image={page1} infoImage="تمثل هذه الصفحة الواجهة الأولى للتطبيق "></Card>
 
