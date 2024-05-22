@@ -7,7 +7,7 @@ import yaakoub from '../../assets/yaakoub.jpg'
 const Cv = () => {
     return (
         <div className="cv">
-            <h1>مطوري النظام </h1>
+            <h3>مطوري النظام </h3>
             <div className="CardCv">
                 <Cardcv image={yaakoub} prenom='   وهاب يعقوب' cv='ماستر 2 إعلام ألي المدرسة العليا لأساتذة الصم والبكم مهندس برمجيات (تطبيقات ومواقع )وأنظمة مدمجة (أردوينو ) بالإضافة إلى باحث في مجال الذكاء الإصطناعي' age='27'></Cardcv>
                 <Cardcv image={mohamed} prenom='محمد لمين  محمودي' cv='ماستر 2 إعلام ألي المدرسة العليا لأساتذة الصم والبكم مصمم تطبيقات ومواقع ويب '  ></Cardcv>

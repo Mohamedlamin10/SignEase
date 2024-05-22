@@ -1,6 +1,7 @@
-.cv h1 {
-    padding: 25px;
+.cv h3 {
     color: #0da778;
+    font-weight: bold;
+    font-family: "Cairo", sans-serif;
 }
 
 .cv {
@@ -18,7 +19,7 @@
 }
 
 @media screen and (max-width:840px) {
-    .cv h1 {
+    .cv h3 {
         font-size: 15px;
     }
 }
