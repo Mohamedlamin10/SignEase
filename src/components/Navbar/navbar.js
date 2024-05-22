@@ -41,7 +41,7 @@ const Navbar = () => {
             <FiMenu color="#0da778" className="mobMenu" onClick={() => setShowMenu(!showMenu)}></FiMenu>
             <div className="NavMenu" style={{ display: showMenu ? 'flex' : 'none' }}>
                 <Link className="ListItem" spy={true} activeClass="active" to="intro" smooth={true} offset={-50} duration={500} onClick={() => setShowMenu(false)}> الصفحة الرئيسية </Link>
-                <Link className="ListItem" spy={true} activeClass="active" to="gallary" smooth={true} offset={-50} duration={500} onClick={() => setShowMenu(false)}> المعرض</Link>
+                <Link className="ListItem" spy={true} activeClass="active" to="gallary" smooth={true} offset={-50} duration={500} onClick={() => setShowMenu(false)}> واجهات التطبيق</Link>
                 <Link className="ListItem" spy={true} activeC lass="active" to="info" smooth={true} offset={-50} duration={500} onClick={() => setShowMenu(false)}> معلومات  </Link>
                 <Link className="ListItem" spy={true} activeClass="active" to="cv" smooth={true} offset={-50} duration={500} onClick={() => setShowMenu(false)}> الملف الشخصي  </Link>
                 <Link className="ListItem" spy={true} activeClass="active" to="contactus" smooth={true} offset={-50} duration={500} onClick={() => setShowMenu(false)}> إتصل بنا  </Link>
