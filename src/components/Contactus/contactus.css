@@ -85,10 +85,14 @@
     .email,
     .mesaage {
         min-width: 16rem;
+        border-style: double;
     }
 
     .submitBtn {
-        width: 50px;
+        height: 45px;
+        padding-left: 40px;
+        padding-right: 40px;
+
     }
 
     .contactdes {

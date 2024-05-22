@@ -9,10 +9,17 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    direction: rtl;
 }
 
 .gallaryTitle {
     color: #0da778;
     font-weight: bold;
     font-family: "Cairo", sans-serif;
+}
+
+@media screen and (max-width:840px) {
+    .gallaryTitle {
+        font-size: large;
+    }
 }
