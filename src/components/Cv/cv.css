@@ -20,6 +20,6 @@
 
 @media screen and (max-width:840px) {
     .cv h3 {
-        font-size: 15px;
+        font-size: larger;
     }
 }
