@@ -38,8 +38,8 @@ const ContactUs = () => {
                 <button type="submit" value='أرسل' className="submitBtn">أرسل</button>
                 <div className="links">
 
-                    <a href="https://www.facebook.com/super.khaled.77?mibextid=kFxxJD"> <img src={insagram} alt="instagram" className="link"></img></a>
-                    <a href="https://www.instagram.com/mahmoudimohamedlamine?igsh=c21scjhyNnVnbDhy"><img src={facebook} alt="instagram" className="link"></img></a>
+                    <a href=" https://www.instagram.com/mahmoudimohamedlamine?igsh=c21scjhyNnVnbDhy"> <img src={insagram} alt="instagram" className="link"></img></a>
+                    <a href="https://www.facebook.com/super.khaled.77?mibextid=kFxxJD"><img src={facebook} alt="instagram" className="link"></img></a>
                     <a href='https://github.com/Mohamedlamin10/SignEase'> <img src={gihup} alt="github" className="link"></img></a>
                 </div>
             </form>
